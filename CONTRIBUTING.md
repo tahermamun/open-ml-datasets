@@ -15,6 +15,7 @@ This guide will help you add datasets easily and correctly.
 3. **Optional files**:
    - `license.txt` — full license text  
    - `source.txt` — original source or URL  
+4. Add dataset link in Main Readme File in **Available Dataset** table of content option.
 4. **Do not include** personal, sensitive, or private data.  
 5. The dataset must be **useful for Machine Learning practice**.
 
