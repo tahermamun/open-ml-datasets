@@ -1,19 +1,42 @@
 # Contributing to Open ML Datasets
 
-Thank you for your interest in contributing!
+Thank you for your interest in contributing! 🎉  
+This guide will help you add datasets easily and correctly.
+
+---
 
 ## 📌 Contribution Rules
 
-1. Only **open-source or public domain** datasets are allowed.
-2. Each dataset **must include**:
-   - `data.csv`
-   - `data_description.md` 
-   - `license.txt`(optional but mention license details must mention in data_description file)
-   - `source.txt`(optional)
-3. **No personal, sensitive, or private data**.
-4. The dataset must be **useful for Machine Learning practice**.
+1. Only **open-source or public domain** datasets are allowed.  
+2. **Mandatory files** for every dataset:
+   - `data.csv` — the dataset itself
+   - `data_description.md` — includes dataset details, features, and ML usage  
+     > If `license.txt` or `source.txt` are not included, mention the license and source in this file.  
+3. **Optional files**:
+   - `license.txt` — full license text  
+   - `source.txt` — original source or URL  
+4. **Do not include** personal, sensitive, or private data.  
+5. The dataset must be **useful for Machine Learning practice**.
 
 ---
+
+## 📂 Where to Add a Dataset
+
+Datasets are organized by **domain** (not ML task).  
+Example domains:
+
+```text
+datasets/
+├── finance/
+├── healthcare/
+├── education/
+├── retail/
+├── transportation/
+├── social/
+└── synthetic/
+```
+
+
 
 ## 📂 How to Add a Dataset
 
@@ -40,19 +63,3 @@ Maintainers will:
 - Verify the dataset license
 - Check documentation completeness
 - Validate dataset usability
-
-
-## 📂 Where to Add a Dataset
-
-Datasets are organized by **domain** (not by ML task).
-
-Example domains:
-```text
-datasets/
-├── finance/
-├── healthcare/
-├── education/
-├── retail/
-├── transportation/
-├── social/
-└── synthetic/
