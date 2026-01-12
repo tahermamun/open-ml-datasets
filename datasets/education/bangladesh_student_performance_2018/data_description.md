@@ -4,7 +4,7 @@
 
 ## Overview
 
-This dataset contains students’ exam performance data along with basic demographic and educational background attributes. It is intended for learning and practice purposes such as data analysis, visualization, and introductory machine learning.
+This dataset contains students’ student performance data along with basic demographic and educational background attributes. It is intended for learning and practice purposes such as data analysis, visualization, and introductory machine learning.
 
 ## Files
 
